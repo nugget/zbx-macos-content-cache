@@ -49,4 +49,45 @@ caching service.  I can guarantee that it's not worth installing Zabbix just
 for this, but if you're already running it then the template is quite easy to
 get going.  Just import the xml template file also found in this GitHub repo.
 
-
+## Example Outpot
+```
+2017-09-25 19:57:12.288 AssetCacheManagerUtil[20807:3449689] Built-in caching server status: {
+    Activated = 1;
+    Active = 1;
+    CacheDetails =     {
+        Books = 174082575;
+        "Mac Software" = 24423474829;
+        Other = 1738767542;
+        iCloud = 12954227645;
+        "iOS Software" = 37416034017;
+    };
+    CacheFree = 298293413392;
+    CacheLimit = 375000000000;
+    CacheStatus = OK;
+    CacheUsed = 76706586608;
+    Parents =     (
+    );
+    Peers =     (
+    );
+    PersonalCacheFree = 362045772355;
+    PersonalCacheLimit = 375000000000;
+    PersonalCacheUsed = 12954227645;
+    Port = 49242;
+    PrivateAddresses =     (
+        "10.10.3.21"
+    );
+    PublicAddress = "aaa.bbb.ccc.ddd";
+    RegistrationStatus = 1;
+    RestrictedMedia = 0;
+    ServerGUID = "DEADBEEF-FOOD-A1AB-1040-EAB10CFEA18";
+    StartupStatus = OK;
+    TotalBytesDropped = 679075;
+    TotalBytesImported = 128672588;
+    TotalBytesReturnedToChildren = 0;
+    TotalBytesReturnedToClients = 35798809867;
+    TotalBytesReturnedToPeers = 0;
+    TotalBytesStoredFromOrigin = 21063186167;
+    TotalBytesStoredFromParents = 0;
+    TotalBytesStoredFromPeers = 0;
+}
+```
