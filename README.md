@@ -49,7 +49,7 @@ caching service.  I can guarantee that it's not worth installing Zabbix just
 for this, but if you're already running it then the template is quite easy to
 get going.  Just import the xml template file also found in this GitHub repo.
 
-## Example Outpot
+## Example Output
 ```
 2017-09-25 19:57:12.288 AssetCacheManagerUtil[20807:3449689] Built-in caching server status: {
     Activated = 1;
