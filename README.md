@@ -48,6 +48,9 @@ a template which will make all kinds of pretty graphs and related items for the
 caching service.  I can guarantee that it's not worth installing Zabbix just
 for this, but if you're already running it then the template is quite easy to
 get going.  Just import the xml template file also found in this GitHub repo.
+This also requires that you enable `RemoteCommands=1` in the agent
+configuration.  It woudln't take much to change over to a UserParameter, but
+I didn't do that.
 
 ## Example Output
 ```
